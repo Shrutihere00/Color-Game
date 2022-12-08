@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWDRqNEYtfadE4oKXaPu-yb0TI2ezW6mlRA&usqp=CAU" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Game</title>
+</head>
+<body>
+    <div class="main">
+    <img src="https://icons.veryicon.com/png/o/miscellaneous/logo-design-of-lingzhuyun/icon-correct-24-1.png" id="checkMark" class="fadeAway" alt="">
+    <img src="https://cdn.pixabay.com/photo/2012/04/12/13/15/red-29985_1280.png" id="wrong" class="fadeAway" alt="">
+    <div class="top">
+        <button id="start" onClick="startGame()">Start</button>
+        <div class="color1 colorOnScreen" ></div>
+        <div class="color2 colorOnScreen" ></div>
+
+    </div>
+    <div class="bottom">
+        <div class="row">
+            <div class="color blue" id="Blue"></div>
+            <div class="color green" id="Green"></div>
+        </div>
+        <div class="row">
+            <div class="color red" id="Red"></div>
+            <div class="color yellow" id="Yellow"></div>
+        </div>
+    </div>
+    <div class="spans">
+    <span class="correct"></span>
+    <span class="time"></span>
+</div>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
